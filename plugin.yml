@@ -1,0 +1,37 @@
+main: com.thomasandrasek.battleroyale.Main
+name: BattleRoyale
+version: 1.2.0
+description: Prove your strength in the arena!
+api-version: 1.14
+commands:
+  vote:
+    description: Vote for arena.
+    usage: /vote <number>
+    permission: battleroyale.vote
+    permission-message: You don't have the battleroyale.vote permission.
+  start:
+    description: Start arena command.
+    usage: /br <arena number>
+    permission: battleroyale.start
+    permission-message: You don't have the battleroyale.br permission.
+  br:
+    description: General Battle Royale command.
+    usage: /br
+    permission: battleroyale.br
+    permission-message: You don't have the battleroyale.br permission.
+    wand:
+      description: Gives player Battle Royale wand.
+      usage: /br wand
+      permission: battleroyale.br.wand
+      permission-message: You don't have the battleroyale.br.wand permission.
+    createarena:
+      description: Creates the Battle Royale arena.
+      usage: /br createarena <name>
+      permission: battleroyale.br.createarena
+      permission-message: You don't have the battleroyale.br.createarena permission.
+    lobby:
+      setspawn:
+        description: Sets the lobby spawn.
+        usage: /br lobby setspawn
+        permission: battleroyale.br.lobby.setspawn
+        permission-message: You don't have the battleroyale.br.lobby.setspawn permission.
