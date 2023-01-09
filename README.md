@@ -1,4 +1,6 @@
 # battleroyale
 
 Things to do:
-  Create actual Read Me
+- Refactor and cleanup code to fit guidelines and be more module.
+- Create actual Read Me
+  
